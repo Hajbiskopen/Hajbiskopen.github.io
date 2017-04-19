@@ -1,0 +1,175 @@
+body {
+	
+    color: rgb(37, 121, 255);
+    background-image: url("Layer 3.jpg");
+    background-repeat: no-repeat
+    
+
+}
+
+
+#container {
+	width: 500px;
+	margin: auto;
+	position: relative;
+	
+}
+
+#header {
+	background-color:rgba(224, 224, 224,0.75);
+	font-family: "ethnocentric rg";
+	width: 100%;
+	margin: auto;
+    border-radius: 7px;
+    
+	
+	
+}
+
+#content {
+	width: 500px;
+	position: relative;
+	margin-top: 20px;
+	margin-right: 0px;
+	background-color:rgba(224, 224, 224,0.75);
+	height: 553px;
+	padding-left: 0px;
+	border-radius: 7px;
+	
+}
+
+#nav {
+    position: relative;
+	list-style: none;
+	width: 500px;
+	float: center;
+	background-color:rgba(224, 224, 224,0.75);
+	height: 50px;
+	
+	top:0px;
+    font-family: "ethnocentric rg";
+    border-radius: 7px;
+	
+
+}
+
+#main {
+	width: 500px;
+	float:left;
+	background-color:rgba(224, 224, 224, 0.75);
+	color: black;
+	text-align: center;
+	font-family: "ethnocentric rg";
+	border-radius: 7px;
+}
+
+#footer {
+	background-color:rgba(224, 224, 224,0.75);
+	color: black;
+	text-align: right;
+	width: 100%;
+	position: relative;
+    font-family: "ethnocentric rg";
+    border-radius: 7px;
+}
+@font-face {
+    font-family: "My Custom Font";
+    src: url("ethnocentric rg.ttf") format("truetype");
+}
+
+    
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+li  {
+    text-align: center;
+    line-height: 50px;
+    padding: 0;
+    width: 33.3%;
+    height: 50px;
+    display: inline-block;
+    transition: 500ms ease-in-out;
+}
+
+li:hover {
+    background: rgb(37, 121, 255);
+    color: white;
+}
+
+liselect {
+    text-align: center;
+    line-height: 50px;
+    padding: 0;
+    width: 33.3%;
+    height: 50px;
+    display: inline-block;
+    background-color: rgb(37, 121, 255); 
+    color: white;
+}
+
+.shadow{
+    box-shadow: 0px 10px 10px rgba(37, 121, 255,0.5), 10px 0px 10px rgba(37, 121, 255,0.5), -10px 0px 10px rgba(37, 121, 255,0.5);
+
+}
+
+	
+	
+	
+
+p{
+	padding: 10px;
+    color: rgb(50, 50, 50);
+    
+}
+s1{
+	font-weight: Bold;
+	
+}
+
+
+
+
+
+h1 , h {
+    text-align: center;
+	padding: 10px;
+	font-size: 28px; 
+	color: rgb(37, 121, 255);
+    font-family: "My Custom Font", ethnocentric rg;
+    text-decoration: underline;
+    
+}
+
+
+
+
+
+h2 {
+    float: left;
+}
+
+h3 {
+    float: left;
+}
+
+
+a {
+    text-decoration: none;
+    
+}
+
+a:visited {
+    color:rgb(37, 121, 255); background-color:transparent; text-decoration:none
+}
+
+input {
+    
+}
+
+
